@@ -1,0 +1,11 @@
+.center-section {   
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 35rem);
+    gap: 3rem;
+}
+
+@media (max-width: 60rem){
+    .center-section{
+       grid-template-columns: 1fr;
+    }
+}
