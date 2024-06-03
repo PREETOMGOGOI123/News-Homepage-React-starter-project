@@ -1,0 +1,41 @@
+.center-section {
+    display:grid;
+    grid-template-rows: repeat(2, min-content);
+    gap: 3rem;
+
+    .primary-image{
+        min-height: 30rem;
+        background-image:url(../../../assets/images/center-layout-images/image-web-3-desktop.jpg);
+        }
+
+    .primary-article{
+        display: flex;
+        gap: 3rem;
+
+        .primary-article__heading, .primary-article__description {
+            width: 50%;
+        }
+
+        .primary-article__description {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 1.8rem;
+        }
+    }
+}
+
+@media (max-width:60rem) {
+
+    .primary-article{
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+
+    .primary-article__description {
+            width: 100% !important;
+        }
+
+    }
+}

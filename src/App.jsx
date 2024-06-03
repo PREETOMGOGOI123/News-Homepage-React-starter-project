@@ -1,14 +1,13 @@
-import React from 'react'
-import Layout from './mainLayout/Layout'
+import Layout from './Layout/Layout';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './index.css'
 
-import Home from './components/pages/home/Home';
-import New from './components/pages/new/New';
-import Popular from './components/pages/popular/Popular';
-import Categories from './components/pages/categories/Categories';
-import Trending from './components/pages/trending/Trending';
+import Home from './pages/home/Home';
+import New from './pages/home/sideSection/SideSection';
+import Popular from './pages/popular/Popular';
+import Categories from './pages/categories/Categories';
+import Trending from './pages/trending/Trending';
 
 
 function App() {

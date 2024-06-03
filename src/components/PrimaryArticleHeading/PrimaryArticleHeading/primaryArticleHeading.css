@@ -1,0 +1,18 @@
+.primary-article__heading {
+    color: var(--color-dark-space-blue);
+
+    font-size: 5.6rem;
+    font-weight: bolder;
+    line-height: 5.6rem;
+    padding-right: 5.7rem;
+}
+@media (max-width:60rem) {
+
+    .primary-article__heading{
+        width: 100% !important;
+    }
+
+    .primary-article__description {
+        gap: 2.4rem;
+    }
+}

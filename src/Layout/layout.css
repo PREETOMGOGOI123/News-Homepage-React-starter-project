@@ -1,0 +1,10 @@
+.container {
+    max-width: 144rem;
+    margin: 7rem auto;
+
+    display: grid;
+    grid-template-rows: repeat(auto-fit);
+    gap: 3rem;
+    padding: 1.8rem;
+}
+
