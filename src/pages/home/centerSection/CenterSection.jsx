@@ -2,7 +2,7 @@ import React from "react";
 
 import PrimaryArticleHeading from "../../../components/PrimaryArticleHeading/PrimaryArticleHeading/PrimaryArticleHeading";
 import ArticleText from "../../../components/ArticleText/ArticleText";
-import Button from '../../../components/Button/Button';
+import Button from '../../../components/Buttons/Button';
 
 import "./centerSection.css";
 
