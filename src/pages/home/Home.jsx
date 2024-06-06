@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../layout/footer/Footer";
+import Footer from "../../layouts/footer/Footer";
 
 import "./home.css";
 import SideSection from "./sideSection/SideSection";
