@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import ArticleHeading from '../../../components/ArticleHeading/ArticleHeading'
-import ArticleText from '../../../components/ArticleText/ArticleText'
+import ArticleHeading from '../../../components/ArticleHeading'
+import ArticleText from '../../../components/ArticleText'
 
 import './sideSection.css'
 
