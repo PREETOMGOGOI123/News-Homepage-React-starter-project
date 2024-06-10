@@ -2,8 +2,8 @@ import React from 'react'
 
 import './footer.css'
 
-import ArticleHeading from '../../components/ArticleHeading/ArticleHeading'
-import ArticleText from '../../components/ArticleText/ArticleText'
+import ArticleHeading from '../../components/ArticleHeading'
+import ArticleText from '../../components/ArticleText'
 
 import retroPcs from '../../assets/images/footer-images/image-retro-pcs.jpg' 
 import topLaptops from '../../assets/images/footer-images/image-top-laptops.jpg'

@@ -25,6 +25,11 @@
                 font-size: 3.2rem;
                 font-weight: bold;
             }
+
+            .article-header:hover {
+                color: var(--color-light-vermillion);
+                cursor: pointer;
+            }
         }
     }
 

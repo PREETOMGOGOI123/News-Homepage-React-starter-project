@@ -1,8 +1,8 @@
 import React from "react";
 
-import PrimaryArticleHeading from "../../../components/PrimaryArticleHeading/PrimaryArticleHeading/PrimaryArticleHeading";
-import ArticleText from "../../../components/ArticleText/ArticleText";
-import Button from '../../../components/Buttons/Button';
+import PrimaryArticleHeading from "../../../components/PrimaryArticleHeading";
+import ArticleText from "../../../components/ArticleText";
+import Button from '../../../components/Button';
 
 import "./centerSection.css";
 

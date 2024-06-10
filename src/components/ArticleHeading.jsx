@@ -1,5 +1,4 @@
 import React from 'react'
-import './articleHeading.css'
 
 function ArticleHeading({className, children}) {
   return (
